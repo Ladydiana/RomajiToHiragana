@@ -82,7 +82,7 @@ hiragana_sonorization = {
                 'pu' : 'ぷ',
                 'pe' : 'ぺ',
                 'po' : 'ぽ'
-        
+
 }
 
 
