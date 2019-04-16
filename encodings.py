@@ -5,7 +5,7 @@ Created on Mon Apr 15 22:26:09 2019
 @author: Culincu Diana Cristina
 """
 
-hiragana_basic = {
+hiragana_gojuon = {
         
                 'a' : 'あ',
                 'i' : 'い',
@@ -56,7 +56,7 @@ hiragana_basic = {
                 
 }
 
-hiragana_sonorization = {
+hiragana_dakuon = {
                 'ga' : 'が',
                 'gi' : 'ぎ',
                 'gu' : 'ぐ',
@@ -76,15 +76,57 @@ hiragana_sonorization = {
                 'bi' : 'び',
                 'bu' : 'ぶ',
                 'be' : 'べ',
-                'bo' : 'ぼ',
+                'bo' : 'ぼ'
+
+}
+
+hiragana_handakuon = {
                 'pa' : 'ぱ',
                 'pi' : 'ぴ',
                 'pu' : 'ぷ',
                 'pe' : 'ぺ',
                 'po' : 'ぽ'
-
+        
 }
 
+hiragana_yoon = {
+                'kya' : 'きゃ',
+                'kyu' : 'きゅ',
+                'kyo' : 'きょ',
+                'sha' : 'しゃ',
+                'shu' : 'しゅ',
+                'sho' : 'しょ',
+                'cha' : 'ちゃ',
+                'chu' : 'ちゅ',
+                'cho' : 'ちょ',
+                'nya' : 'にゃ',
+                'nyu' : 'にゅ',
+                'nyo' : 'にょ',
+                'hya' : 'ひゃ',
+                'hyu' : 'ひゅ',
+                'hyo' : 'ひょ',
+                'mya' : 'みゃ',
+                'myu' : 'みゅ',
+                'myo' : 'みょ',
+                'rya' : 'りゃ',
+                'ryu' : 'りゅ',
+                'ryo' : 'りょ',
+                'gya' : 'ぎゃ',
+                'gyu' : 'ぎゅ',
+                'gyo' : 'ぎょ',
+                'ja' : 'じゃ',
+                'ju' : 'じゅ',
+                'jo' : 'じょ',
+                'bya': 'びゃ',
+                'byu' : 'びゅ',
+                'byo' : 'びょ',
+                'pya' : 'ぴゃ',
+                'pyu' : 'ぴゅ',
+                'pyo' : 'ぴょ'
+                
+}
 
-print (hiragana_basic)
-print (hiragana_sonorization)
+print (hiragana_gojuon)
+print (hiragana_dakuon)
+print (hiragana_handakuon)
+print (hiragana_yoon)
